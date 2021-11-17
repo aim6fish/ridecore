@@ -7,15 +7,15 @@ OBJS = startup.o main.o
 #CMDPREF = /home/share/cad/mipsel-emb/usr/bin/
 CMDPREF = 
 
-MIPSCC  = $(CMDPREF)riscv64-unknown-elf-gcc
-MIPSAS  = $(CMDPREF)riscv64-unknown-elf-as
-MIPSLD  = $(CMDPREF)riscv64-unknown-elf-ld
-OBJDUMP = $(CMDPREF)riscv64-unknown-elf-objdump
-MEMGEN  = memgen
+MIPSCC  = $(CMDPREF)riscv32-unknown-elf-gcc
+MIPSAS  = $(CMDPREF)riscv32-unknown-elf-as
+MIPSLD  = $(CMDPREF)riscv32-unknown-elf-ld
+OBJDUMP = $(CMDPREF)riscv32-unknown-elf-objdump
+MEMGEN  = ../../../../../toolchain/memgen-v0.9/memgen
 
-CFLAGS  = -m32 -O2
-AFLAGS  = -m32
-LFLAGS  = -static -melf32lriscv
+CFLAGS  = 
+AFLAGS  = -mabi=ilp32
+LFLAGS  = 
 
 .SUFFIXES:
 .SUFFIXES: .o .c .S
@@ -25,7 +25,7 @@ all:
 	$(MAKE) image
 
 $(TARGET): $(OBJS)
-	$(MIPSLD) $(LFLAGS) -T stdld.script $(OBJS) -o $(TARGET)
+	$(MIPSLD) $(LFLAGS) $(OBJS) -T stdld.script  -o $(TARGET)
 
 .c.o:
 	$(MIPSCC) $(CFLAGS) -c $(@D)/$(<F) -o $(@D)/$(@F)

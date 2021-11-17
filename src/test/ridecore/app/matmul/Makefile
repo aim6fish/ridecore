@@ -7,14 +7,14 @@ OBJS = startup.o main.o
 #CMDPREF = /home/share/cad/mipsel-emb/usr/bin/
 CMDPREF = 
 
-MIPSCC  = $(CMDPREF)riscv64-unknown-elf-gcc
-MIPSAS  = $(CMDPREF)riscv64-unknown-elf-as
-MIPSLD  = $(CMDPREF)riscv64-unknown-elf-ld
-OBJDUMP = $(CMDPREF)riscv64-unknown-elf-objdump
+MIPSCC  = riscv32-unknown-elf-gcc
+MIPSAS  = riscv32-unknown-elf-as
+MIPSLD  = riscv32-unknown-elf-ld
+OBJDUMP = riscv32-unknown-elf-objdump
 MEMGEN  = memgen
 
-CFLAGS  = -m32 -O2
-AFLAGS  = -m32
+CFLAGS  =  -O2
+AFLAGS  = 
 LFLAGS  = -static -melf32lriscv
 
 .SUFFIXES:

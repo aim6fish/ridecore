@@ -1,0 +1,218 @@
+{
+    "alloc_issue_ino": [
+        "alloc_issue_ino",
+        "DKQcr",
+        "module",
+        1
+    ],
+    "alloc_issue_ino_0000__port_gym": [
+        "alloc_issue_ino_0000__port_gym",
+        "FnCT4",
+        "module",
+        2
+    ],
+    "alu": [
+        "alu",
+        "C26kq",
+        "module",
+        3
+    ],
+    "select_vector": [
+        "select_vector",
+        "ym90L",
+        "module",
+        4
+    ],
+    "brimm_gen": [
+        "brimm_gen",
+        "uCN8s",
+        "module",
+        5
+    ],
+    "decoder": [
+        "decoder",
+        "zf0bY",
+        "module",
+        6
+    ],
+    "dmem": [
+        "dmem",
+        "Iyg26",
+        "module",
+        7
+    ],
+    "true_dualport_ram_clear": [
+        "true_dualport_ram_clear",
+        "IJMi7",
+        "module",
+        8
+    ],
+    "exunit_alu": [
+        "exunit_alu",
+        "Wmx6y",
+        "module",
+        9
+    ],
+    "exunit_branch": [
+        "exunit_branch",
+        "GE3tn",
+        "module",
+        10
+    ],
+    "exunit_ldst": [
+        "exunit_ldst",
+        "Jta3E",
+        "module",
+        11
+    ],
+    "exunit_mul": [
+        "exunit_mul",
+        "RH7qF",
+        "module",
+        12
+    ],
+    "imem": [
+        "imem",
+        "JixA0",
+        "module",
+        13
+    ],
+    "imem_ld": [
+        "imem_ld",
+        "d39W8",
+        "module",
+        14
+    ],
+    "imem_outa": [
+        "imem_outa",
+        "JRDmB",
+        "module",
+        15
+    ],
+    "imm_gen": [
+        "imm_gen",
+        "aCwQk",
+        "module",
+        16
+    ],
+    "miss_prediction_fix_table": [
+        "miss_prediction_fix_table",
+        "HZrap",
+        "module",
+        17
+    ],
+    "pipeline_if": [
+        "pipeline_if",
+        "pIRf0",
+        "module",
+        18
+    ],
+    "prioenc_0000": [
+        "prioenc_0000",
+        "QNdij",
+        "module",
+        19
+    ],
+    "allocateunit": [
+        "allocateunit",
+        "xFTud",
+        "module",
+        20
+    ],
+    "allocateunit_0000": [
+        "allocateunit_0000",
+        "CCihy",
+        "module",
+        21
+    ],
+    "ram_sync_nolatch_2r1w": [
+        "ram_sync_nolatch_2r1w",
+        "ZY1sB",
+        "module",
+        22
+    ],
+    "ram_sync_nolatch_2r2w": [
+        "ram_sync_nolatch_2r2w",
+        "dygBv",
+        "module",
+        23
+    ],
+    "ram_sync_4r1w": [
+        "ram_sync_4r1w",
+        "Bh2Zt",
+        "module",
+        24
+    ],
+    "ram_sync_4r2w": [
+        "ram_sync_4r2w",
+        "SEI6T",
+        "module",
+        25
+    ],
+    "ram_sync_6r2w": [
+        "ram_sync_6r2w",
+        "Kf0Ds",
+        "module",
+        26
+    ],
+    "rrf_freelistmanager": [
+        "rrf_freelistmanager",
+        "BceiS",
+        "module",
+        27
+    ],
+    "rrf": [
+        "rrf",
+        "s9S9h",
+        "module",
+        28
+    ],
+    "rs_alu": [
+        "rs_alu",
+        "hJzvc",
+        "module",
+        29
+    ],
+    "rs_requestgenerator": [
+        "rs_requestgenerator",
+        "WkR9w",
+        "module",
+        30
+    ],
+    "sourceoperand_manager": [
+        "sourceoperand_manager",
+        "tUx2j",
+        "module",
+        31
+    ],
+    "tag_generator": [
+        "tag_generator",
+        "jjfAy",
+        "module",
+        32
+    ],
+    "oldest_finder8": [
+        "oldest_finder8",
+        "WFkP3",
+        "module",
+        33
+    ],
+    "storebuf_0000": [
+        "storebuf_0000",
+        "sZJVQ",
+        "module",
+        34
+    ],
+    "testbench": [
+        "testbench",
+        "iAVhC",
+        "module",
+        35
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        36
+    ]
+}

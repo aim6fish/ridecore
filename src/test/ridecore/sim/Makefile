@@ -1,4 +1,4 @@
-MD = ../../../fpga
+MD = /home/riscv/RISCV/example/ridecore/src/fpga
 SIMDIR = .
 OBJS = $(MD)/alloc_issue_ino.v \
 $(MD)/alu.v \
@@ -39,6 +39,7 @@ $(MD)/oldest_finder.v \
 $(MD)/storebuf.v \
 $(MD)/search_be.v \
 $(MD)/topsim.v
+
 
 OBJDBG = $(SIMDIR)/testbench.v
 OBJLST = $(SIMDIR)/testbench_last.v
