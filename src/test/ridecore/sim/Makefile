@@ -67,3 +67,7 @@ dbgvcs: $(OBJS) $(OBJDBG)
 
 prvcs: $(OBJS) $(OBJPRD)
 	vcs $(SIMOP1) $(SIMOP2) $(OBJS) $(OBJPRD)
+
+clean:
+	rm -rf simv.daidir csrc
+	rm exe.log simv ucli.key
